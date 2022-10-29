@@ -1,0 +1,55 @@
+image{
+    width: 100px;
+}
+
+th, td {
+    padding: 8px;
+}
+
+thead {
+    background-color: #333;
+    color: white;
+    font-size: 0.875rem;
+	text-transform: uppercase;
+	letter-spacing: 2%;
+    text-decoration: none;
+}
+
+thead th {
+    width: 25%;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  
+tbody tr:nth-child(even) {
+    background-color: #eee;
+}
+
+tbody th {
+    text-align: left;
+}
+
+h1{
+    margin-left: 15%;
+    float : center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    float: center;
+    margin-left: 10%;
+    margin-top: 2%;
+    width: 1000px;    
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+	vertical-align: middle;
+}
+table thead{
+    font-size: large;
+}
+
